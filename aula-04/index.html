@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula-04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Aluraflix
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+      <script>
+          var listaFilmes = [
+        "https://musicart.xboxlive.com/7/94fc5000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+        "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/3d1bae17fc721302e20706eacbbcd57d22f790d5dc7b5f7f4d196c7b751fcb56._RI_V_TTW_.jpg",
+        "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/91/31/05/20139182.jpg"
+        ];
+
+        for (var i = 0; i < listaFilmes.length; i++) {
+        document.write("<img src=" + listaFilmes[i] + ">");
+        }
+      </script>
+    
+</body>
+</html>
